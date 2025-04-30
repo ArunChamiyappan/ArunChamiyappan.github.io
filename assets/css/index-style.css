@@ -1,8 +1,7 @@
 .thisdiv {
     width: 80%;
     min-height: 100vh;
-    margin: 0 auto;
-    margin-top: 3rem;
+    margin: 3rem auto 0 auto;
 
     display: flex;
     flex-direction: column;
@@ -17,9 +16,11 @@
 
 .update_body {
     width: 100%;
-    color:black;
+    color: black;
     text-align: justify;
     margin-bottom: 1rem;
     padding: 1rem;
+    line-height: 1.6;          /* Improves readability */
+    background-color: #f9f9f9; /* Optional subtle background */
+    border-radius: 0.5rem;     /* Soft edges */
 }
-
